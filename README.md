@@ -1,4 +1,6 @@
 # Linear Search
+I chose the Linear Search algorithm because it is a foundational, stepping stone algorithm. This is the algorithm every programmer usually first learns because at its core it is a for loop which is a necessary statement programmers must know. This means by learning Linear Search you not only unlock a powerful searching algorithm but also come understand how a fundamental programming statement works. Furthermore, Linear Search is also a good first step towards understanding how search algorithms and time complexity work. The sequential examination Linear Search offers is present in a variety of topics making it a core building block for understanding complex techniques. 
+
 ## Demo video/gif/screenshot of test
 https://drive.google.com/file/d/1JGnhNCAGlZL21Ni4f8tRm-CWZWQ-AjiR/view?usp=sharing
 
