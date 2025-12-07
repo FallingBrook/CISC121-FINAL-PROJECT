@@ -1,8 +1,14 @@
 # Linear Search
-I chose the Linear Search algorithm because it is a foundational, stepping stone algorithm. This is the algorithm every programmer usually first learns because at its core it is a for loop which is a necessary statement programmers must know. This means by learning Linear Search you not only unlock a powerful searching algorithm but also come understand how a fundamental programming statement works. Furthermore, Linear Search is also a good first step towards understanding how search algorithms and time complexity work. The sequential examination Linear Search offers is present in a variety of topics making it a core building block for understanding complex techniques. 
+I chose the Linear Search algorithm because it is a foundational, stepping stone algorithm. This is the algorithm most programmers first learn because at its core it is a for loop, which is a necessary statement programmers must know. This means by learning Linear Search you not only unlock a powerful searching algorithm but also come to understand how a fundamental programming statement works. Furthermore, Linear Search is also a good first step toward understanding how search algorithms and time complexity work. The sequential examination Linear Search offers is present in a variety of topics making it a core building block for understanding complex techniques. 
 
 ## Demo video/gif/screenshot of test
 https://drive.google.com/file/d/1JGnhNCAGlZL21Ni4f8tRm-CWZWQ-AjiR/view?usp=sharing
+
+For testing and verification, I used both the preset lists and custom inputs:
+- Best case: Target at index 0 (using the “Best Case” button).
+- Worst case: Target at the last index (using the “Worst Case” button).
+- Not found: Target not present in the list (using the “Not Found” button).
+- Custom inputs: Lists with negative numbers, repeated values, and invalid input (e.g., non-integers or empty lists) to confirm that the app shows clear error messages.
 
 ## Problem Breakdown & Computational Thinking
 ### Decomposition
