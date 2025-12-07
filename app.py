@@ -27,7 +27,6 @@ def typewriterWithState(index: int):
         # Stream partial text, next index, and counter
         yield out, nextIndex, counter
 
-
 # Linear search visualizer
 def renderArray(arr, currentIndex=None, foundIndex=None):
     """
@@ -54,7 +53,6 @@ def renderArray(arr, currentIndex=None, foundIndex=None):
 
     return f'<div class="ls-container">{"".join(boxes)}</div>'
 
-
 def parseInputs(arrayText, targetText):
     """
     Convert the raw text inputs into a list of ints and an int target.
@@ -67,7 +65,6 @@ def parseInputs(arrayText, targetText):
     arr = [int(p) for p in parts]
     target = int(targetText)
     return arr, target
-
 
 def resetSearch(arrayText, targetText):
     """
@@ -101,7 +98,6 @@ def resetSearch(arrayText, targetText):
     stepText = f"**Step:** {step}"
 
     return html, status, explanation, index, foundIndex, isDone, stepText, step, arrayText, targetText
-
 
 def nextStep(arrayText, targetText, index, foundIndex, isDone, step, lastArrayText, lastTargetText):
     """
@@ -178,11 +174,9 @@ def loadBestCase():
     """Example where the target is at index 0."""
     return "5 9 12 7", "5"
 
-
 def loadWorstCase():
     """Example where the target is at the last index."""
     return "2 4 6 8 10", "10"
-
 
 def loadNotFoundCase():
     """Example where the target is not in the list."""
@@ -367,5 +361,5 @@ with gr.Blocks() as demo:
                 outputs=[vizHtml, statusMarkdown, explanationMarkdown, indexState, foundState, doneState, stepMarkdown, stepState, lastArrayState, lastTargetState,]
             )
 
-# start app
+# Start app
 demo.launch()
