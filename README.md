@@ -36,4 +36,5 @@ https://huggingface.co/spaces/FallingBrook/CISC121-PROJECT-FINAL
 All written explanations in this README are completely written by me.
 The logic, structure, and overall design of this project was developed by me.
 ChatGPT was used for the following: commenting, code polishing, and css assistance (because I have no experience with css).
+I also used ChatGPT for debugging when I got runtime errors in hugging face. It guided me to create a requirements.txt file.
 My approach to this project aligns with the allowed AI level guidelines.
